@@ -1,0 +1,137 @@
+body{
+    background-color:  lightgrey;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: white;
+    text-align: center;
+    margin: 10%;
+    padding: 5%;
+    border-radius: .5rem;
+    
+    
+}
+
+
+.container h1{
+    text-align: left;
+}
+
+.containerA{
+    display: flex;
+   font-size: .8rem;
+
+}
+
+
+.containerx{
+    width: 100%;    
+}
+
+.containerx label{
+    float: left;
+    margin-left:4%;
+    padding: .2rem;
+}
+
+
+.containerx input{
+    width: 90%;
+    border: 2px  solid gray;
+    border-radius: .3rem;
+
+}
+
+
+
+.containery{
+    width: 100%;
+    font-size: .8rem;
+    
+}
+
+.containery label{
+    float: left;
+    margin-left:4%;
+    padding: .2rem;
+}
+
+.containery input{
+    width: 90%;
+    border-radius: .2rem;
+    border: 2px solid grey;
+}
+
+.containery select{
+    width: 92%;
+    height: 1.35rem;
+    border-radius: .2rem;
+    border: 2px solid grey;
+
+}
+
+.Address textarea{
+    width: 96%;
+    border-radius: .5rem;
+    border: 2px solid grey;
+    padding: .2rem;
+    resize: none;
+    
+}
+
+.Address label{
+    float: left;
+    margin-left: 2.5%;
+}
+
+#CV{
+    padding: 2px;
+    font-size:0.45rem;
+}
+button{
+
+    width: 5rem;
+    margin:7px auto;
+    font-weight: 500;
+    color: white;
+    background-color: grey;
+    border-radius: 4px;
+    padding: 5px;
+    font-family: Tahoma, sans-serif;
+    border: none;
+}
+
+@media (max-width:270px) and (min-width:0px) {
+
+    .container h1{
+            font-size:.6rem;
+    }
+
+    h1 sub{
+        font-size: .3rem;
+    }
+}
+
+@media (max-width:545px) and (min-width:270px) {
+
+    .container h1{
+            font-size:1.2rem;
+    }
+
+    h1 sub{
+        font-size: .6rem;
+    }
+}
+
+
+@media (max-width:600px) {
+    .containerA, .containerB{
+        flex-wrap: wrap;    
+    }
+
+    .container h1 sub{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Job Application <sub>(Web)</sub></h1>
+        <div class="containerA">
+            
+            <div class="containerx">
+                <p><label for="First-Name">First Name</label><br>
+                <input type="name" name="fName" id="First-Name" placeholder="Enter Your First Name"></p>
+                <p><label for="Last-Name">Last Name</label><br>
+                <input type="name" name="lName" id="Last-Name" placeholder="Enter Your Last Name" ></p>
+            </div>
+            <div class="containery">
+                <p><label for="Email">Email</label><br>
+                    <input type="email" name="email" id="Email" placeholder="Enter Your Email"></p>
+                    <p><label for="Job-Role"> Job Role</label><br>
+                    <select name="Job-Role" id="Job-Role">
+                        <option value="0">Select Job Role </option>
+                        <option value="1">Project Manager </option>
+                        <option value="2">Deputy Project Manager</option>
+                        <option value="3">Sr. Dev</option>
+                        <option value="4">Intern</option>
+                    </select>
+                </p>
+            </div>
+        </div>
+
+        <div class="Address"><p><label for="Address">Address</label><br>
+            <textarea name="address" id="Address" cols="88" rows="10"></textarea></p>
+        </div>
+
+        <div class="containerA">
+            
+            <div class="containerx">
+                <p><label for="City">City</label><br>
+                <input type="name" name="city" id="City" placeholder="Enter City Name"></p>
+                <p><label for="Date">Date</label><br>
+                <input type="date" name="date" id="Date" placeholder="Date" ></p>
+            </div>
+
+            <div class="containery">
+                <p><label for="Pin">Pincode</label><br>
+                    <input type="number" name="pincode" id="Pin" placeholder="Enter Pincode">
+                </p>
+                    <p><label for="CV"> Upload CV</label><br>
+                        <input type="file" name="job role" id="CV" placeholder=""></p>
+                    </p>
+            </div>
+        </div>
+
+        <button>Apply now</button>
+
+
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
